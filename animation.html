@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        img {
+            position: relative;
+            /* animation: rotating 2s infinite linear; */
+            animation: rotating 4s infinite linear;
+            transform: scale(0.1)  ;
+
+        }
+
+        @keyframes rotating {
+            form {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class=" ml-10 mt-4">
+        <a href="http://127.0.0.1:5500/index.html">
+            <button class="cursor-pointer py-2 px-4 bg-green-400 rounded-md text-white font-bold hover:bg-green-700 duration-300">Go back</button>
+        </a>
+    </div>
+    <div class="parent flex items-center justify-center mt-20  ">
+        <img class="w-80 rounded-md" src="./assets/profileImg2.jpg" alt="">
+    </div>
+</body>
+
+</html>
