@@ -14,36 +14,72 @@
         integrity="sha512-…sha512…" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="max-w-[90%] mx-auto font-[roboto]">
-    <nav class="flex justify-between items-center mt-4">
-        <div class="">
-            <img class="w-22" src="./assets/logo-green.png" alt="logo">
-        </div>
-        <div class="hidden md:block">
-            <a class="mr-4 hover:text-green-600" href="">Product</a>
-            <a class="mr-4 hover:text-green-600" href="">Services</a>
-            <a class="mr-4 hover:text-green-600" href="">Contact us</a>
-        </div>
-        <div class="hidden md:block">
-            <i class="cursor-pointer hover:text-green-600 fa-solid fa-magnifying-glass mr-4"></i>
-            <i class="cursor-pointer hover:text-green-600 fa-solid fa-cart-shopping  mr-4"></i>
-            <button class="mr-2 py-1 px-4 border-2 border-green-400 hover:bg-green-600 hover:border-none hover:duration-300 hover:text-white rounded-md cursor-pointer">Login</button>
-            <button class="mr-2 py-1 px-4 bg-green-500  hover:bg-green-600 hover:duration-300 rounded-md text-white cursor-pointer">Register</button>
+<body class="font-[roboto]">
+    <!-- navbar and banner section start -->
+    <div class="bg-gradient-to-b from-white to-[#efebe3]">
+        <nav class="flex justify-between items-center mt-4 max-w-[90%] mx-auto">
+            <div>
+                <img class="lg:w-28 w-20" src="./assets/logo-green.png" alt="logo">
+            </div>
+            <div class="hidden md:block lg:ml-40">
+                <a class="lg:mr-4 mr-2 hover:text-green-600" href="">Product</a>
+                <a class="lg:mr-4 mr-2 hover:text-green-600" href="">Services</a>
+                <a class="lg:mr-4 mr-2 hover:text-green-600" href="">Contact us</a>
+                <a class="lg:mr-4 mr-2 hover:text-green-600" href="">About us</a>
+            </div>
+            <div class="hidden md:block">
+                <i class="cursor-pointer hover:text-green-600 fa-solid fa-magnifying-glass mr-4"></i>
+                <i class="cursor-pointer hover:text-green-600 fa-solid fa-cart-shopping  mr-4"></i>
+                <button
+                    class="mr-2 py-1 px-4 border-2 border-green-400 hover:bg-green-600 hover:border-none hover:duration-300 hover:text-white rounded-md cursor-pointer">Login</button>
+                <button
+                    class="mr-2 py-1 px-4 bg-green-500  hover:bg-green-600 hover:duration-300 rounded-md text-white cursor-pointer">Register</button>
 
-        </div>
-        <div class="md:hidden">
-            <i class="fa-solid fa-bars"></i>
-        </div>
-    </nav>
-
-
-
-
-    <header>
-
-    </header>
+            </div>
+            <div class="md:hidden">
+                <i class="fa-solid fa-bars hover:text-green-400"></i>
+            </div>
+        </nav>
+        <header class="lg:mt-32 md:mt-20 mt-10 text-center flex flex-col items-center max-w-[90%] mx-auto ">
+            <div class="mb-6">
+                <h2 class="lg:text-5xl md:text-3xl text-2xl font-bold">
+                    Freshness <span class="text-green-600">You Can</span><br>
+                    <span class="text-green-600">Count</span> On, Prices You’ll Love!
+                </h2>
+                <p class="mt-6">
+                    Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve
+                    got you covered every day!
+                </p>
+            </div>
+            <div class="flex justify-center mt-8">
+                <img class="lg:w-[700px]  md:w-[500px]" src="./assets/hero-img.png" alt="">
+            </div>
+        </header>
+    </div>
+    <!-- navbar and banner section ends -->
     <main>
-
+        <!-- services section start -->
+         <div class="max-w-[90%] mx-auto md:mt-28 md:mb-28 mt-10 mb-10">
+            <h2 class="text-2xl font-bold text-green-500">Services</h2>
+           <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8 mt-6">
+            <div class="p-6 bg-[#efebe3] text-center rounded-md">
+                <img class="w-28 mx-auto" src="./assets/support.png" alt="">
+                <h4 class="font-bold pt-4">24/7 Services</h4>
+                <p class="mt-2">This is a services center protocol with foods shop support system</p>
+            </div>
+            <div class="p-6 bg-[#efebe3] text-center rounded-md">
+                <img class="w-28 mx-auto" src="./assets/fast-delivery.png" alt="">
+                <h4 class="font-bold pt-4">Fast Delivery</h4>
+                <p class="mt-2">This is a Delivery services center protocol with foods shop support system</p>
+            </div>
+            <div class="p-6 bg-[#efebe3] text-center rounded-md">
+                <img class="w-28 mx-auto" src="./assets/healthy-100.png" alt="">
+                <h4 class="font-bold pt-4">Healthy Products </h4>
+                <p class="mt-2">This is a healthy product services center protocol with foods shop support system</p>
+            </div>
+           </div>
+         </div>
+           <!-- services section ends -->
     </main>
     <footer>
 
